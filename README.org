@@ -1,0 +1,20 @@
+* Legacy Dotfiles
+  :PROPERTIES:
+  :CUSTOM_ID: legacy-dotfiles
+  :END:
+
+Old dotfiles that I don't use anymore
+ - [[https://dwm.suckless.org/][dwm]]
+ - [[https://i3wm.org/][i3wm]]
+ - [[https://moc.daper.net/][moc]]
+ - [[https://www.newsbeuter.org/][newsbeuter]]
+ - [[https://github.com/davatorium/rofi][rofi]]
+ - [[https://www.spacemacs.org/][spacemacs]]
+
+* License
+  :PROPERTIES:
+  :CUSTOM_ID: license
+  :END:
+
+This theme is released under the MIT License. For more information read
+the [[LICENSE.org][license]].
