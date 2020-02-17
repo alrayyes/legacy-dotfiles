@@ -1,20 +1,65 @@
-* Legacy Dotfiles
-  :PROPERTIES:
-  :CUSTOM_ID: legacy-dotfiles
-  :END:
+#+TITLE:   Legacy Dotfiles
+#+DATE:    February 4, 2020
+#+SINCE:   {replace with next tagged release version}
+#+STARTUP: inlineimages nofold
 
-Old dotfiles that I don't use anymore
- - [[https://dwm.suckless.org/][dwm]]
- - [[https://i3wm.org/][i3wm]]
- - [[https://moc.daper.net/][moc]]
- - [[https://www.newsbeuter.org/][newsbeuter]]
- - [[https://github.com/davatorium/rofi][rofi]]
- - [[https://www.spacemacs.org/][spacemacs]]
+* Table of Contents :TOC_3:noexport:
+- [[#description][Description]]
+  - [[#maintainers][Maintainers]]
+- [[#prerequisites][Prerequisites]]
+- [[#configured-applications][Configured Applications]]
+- [[#zsh][Zsh]]
+  - [[#theme][Theme]]
+  - [[#plugin-manager][Plugin Manager]]
+  - [[#plugins][Plugins]]
+- [[#license][License]]
+
+* Description
+Legacy dotfiles that I don't use anymore
+
+** Maintainers
++ [[https://github.com/alrayyes][@alrayyes]]
+
+* Prerequisites
+- [[http://www.gnu.org/software/stow/][stow]]
+- [[https://www.python.org/][Python]]
+
+* Configured Applications
+- [[https://dwm.suckless.org/][dwm]]
+- [[https://i3wm.org/][i3wm]]
+- [[https://moc.daper.net/][moc]]
+- [[https://www.newsbeuter.org/][newsbeuter]]
+- [[https://github.com/davatorium/rofi][rofi]]
+- [[https://www.spacemacs.org/][spacemacs]]
+- [[http://zsh.sourceforge.net/][zsh]]
+
+* Zsh
+** Theme
+- [[https://github.com/denysdovhan/spaceship-prompt][spaceship zsh]]
+** Plugin Manager
+- [[https://github.com/zplug/zplug][zplug]]
+** Plugins
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/archlinux][archlinux]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/composer][composer]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker][docker]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker-compose][docker-compose]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/extract][extract]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/fzf][fzf]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git][git]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/gitignore][gitignore]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pass][pass]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/ripgrep][ripgrep]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/rsync][rsync]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/sudo][sudo]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/systemd][systemd]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux][tmux]]
+- [[https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/vi-mode][vi-mode]]
+- [[https://github.com/zsh-users/zsh-autosuggestions][zsh-autosuggestions]]
+- [[https://github.com/zsh-users/zsh-syntax-highlighting][zsh-syntax-highlighting]]
 
 * License
-  :PROPERTIES:
-  :CUSTOM_ID: license
-  :END:
-
+:PROPERTIES:
+:CUSTOM_ID: license
+:END:
 This theme is released under the MIT License. For more information read
-the [[LICENSE.org][license]].
+the [[file:LICENSE.org][license]].
