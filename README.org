@@ -26,11 +26,13 @@ Legacy dotfiles that I don't use anymore
 
 * Configured Applications
 - [[https://dwm.suckless.org/][dwm]]
+- [[https://dunst-project.org/][dunst]]
 - [[https://i3wm.org/][i3wm]]
 - [[https://moc.daper.net/][moc]]
 - [[https://www.newsbeuter.org/][newsbeuter]]
 - [[https://github.com/davatorium/rofi][rofi]]
 - [[https://www.spacemacs.org/][spacemacs]]
+- [[https://vifm.info/][vifm]]
 - [[http://zsh.sourceforge.net/][zsh]]
 
 * Zsh
